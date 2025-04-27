@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+   display: flex;
+   justify-content: center;
+}
+
+.main-div {
+    margin-top: 5dvh;
+    padding: 40px;
+    width: 90dvw;
+    height: 90%;
+    background-color: black;
+    background-position: center;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/*O justify-content modifica os itens no eixo horizontal, enquanto o align-items, modifica o eixo vertical.*/
+/*Se quiser testar com flex-direction: colunm, o tamanho mínimo do container deve ser de 400px, caso contrário, não será possível ver ele em ação.*/
+
+.justify-content-space-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.justify-content-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.justify-content-space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.justify-content-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.justify-content-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.justify-content-end {
+    display: flex;
+    flex-direction: row; 
+    justify-content: end;
+    align-items: center;
+    padding-top: 40px; 
+    margin-bottom: 60px;
+}
+
+.block1, .block2, .block3 {
+    width: 80px;
+    height: 80px;
+    color: red;
+    background-color: red;
+    border-radius: 20%;
+}
+
+
+    
