@@ -21,3 +21,6 @@ Este projeto organiza todos os casos de uso em uma única página, permitindo qu
 
 Feito por Lucas Orge Rodrigues como exercício de ensino para amigos e interessados em Flexbox.
 
+## Observações
+
+Aproveitei o que aprendi no meu curso de Programador Front-End pela Meta e usei Git para colocar o HTML e CSS no repositório.
