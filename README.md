@@ -3,7 +3,7 @@
 ## Descrição
 Este pequeno projeto em HTML e CSS foi criado para ajudar quem está com dificuldades em entender o comportamento da propriedade `justify-content` no Flexbox. Através de vários exemplos práticos — `space-around`, `space-between`, `space-evenly`, `start`, `center` e `end` — você verá como o Flexbox distribui o espaço entre os itens no **eixo principal**.
 
-> **Nota:** Cada container utiliza também `align-items: center` para ilustrar a combinação de controle nos dois eixos.
+> **Nota:** Cada container utiliza também `align-items: center` para ilustrar a combinação de controle nos dois eixos, além do `flex-direction`.
 
 ---
 
